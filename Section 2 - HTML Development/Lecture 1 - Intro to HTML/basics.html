@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My First Web Page </title>
+    <meta name="description" content="Page Description Here"/>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <style type="text/css">
+        Body {
+            color: red;
+        }
+
+    </style>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</head>
+
+<body>
+<p>This is a Sample HTML Document.</p>
+This Javascript function will capitalize my name:
+<p>Enter your name: <input type="text" id="fname" onchange="myFunction()"></p>
+<p>This is a line 1 <br> This is line 2 &nbsp;&nbsp;&nbsp;&nbsp; This is line 3</p>
+<h1>Header1</h1>
+<h2>Header 2</h2>
+<h3> <font face ="ariel" size = "22" color="blue"> Header 3</font></h3>
+
+<p>
+    <strong>Bold text</strong> <br>
+    <em>Italic </em> <br>
+    <u>underlined</u><br>
+    <strike>Strike Text</strike>
+</p>
+
+<h3>Favourite sports</h3>
+<ul>
+    <li>Cricket</li>
+    <li>Football</li>
+    <li>Badminton</li>
+    <li>Table Tennis</li>
+</ul>
+<h3>Favourite Fruit</h3>
+<ol>
+    <li>Apple</li>
+    <li>Orange</li>
+    <li>Banana</li>
+    <li>Watermelon</li>
+</ol>
+<p>
+    <img src="FL.jpg">
+</p>
+<video width="100%" controls>
+    <source src="ya.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <p>
+    <a href="https://www.google.com" target="_blank">Google</a>
+  </p>
+</body>
+
+</html>

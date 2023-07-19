@@ -1,0 +1,211 @@
+/* 01. Comments
+----------------
+
+/*===========================================================================================================================================*/
+
+
+/*   02. Where to Insert CSS
+-----------------------------
+
+Three Ways to Insert CSS
+
+  1. External CSS - With an external style sheet, you can change the look of an entire website by changing just one file.
+  Each HTML page must include a reference to external style sheet file inside the <link> element, inside the head section.
+
+  2. Internal CSS - An internal style sheet may be used if one single HTML page has a unique style.
+  The internal style is defined inside the <style> element, inside the head section.
+
+  3. Inline CSS - An inline style may be used to apply a unique style for a single element.
+  To use inline styles, add the style attribute to relevant element.  The style attribute can contain any CSS property. */
+
+/*===========================================================================================================================================*/
+
+/* 03. Syntax */
+
+/* The selector points to the HTML element you want to style.
+The declaration block contains one or more declarations separated by semicolons.
+Each declaration includes a CSS property name and a value, separated by a colon.
+Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.*/
+
+  /* h1 {
+    color: blue;
+    font-size: 12px;
+  } */
+
+/*===========================================================================================================================================*/
+
+
+
+/* 04. Selectors*/
+p{
+    color: green;
+}
+#paragraphid{
+    color: red;
+    background-color: aqua;
+}
+.classstyle{
+    color: palevioletred;
+    background-color:bisque;
+}
+/*===========================================================================================================================================*/
+
+
+/* 05. Colors*/
+h1#color1{
+  color: red;
+}
+h1#color2{
+    color: purple;
+  }
+h1#rgb{
+    color: rgb(102, 102, 231);
+  }h1#hex{
+    color: #909000;
+  }
+  h1#hsl{
+    color: hsl(150, 50%, 40%);
+  }
+
+/*===========================================================================================================================================*/
+
+
+/* 06. Backgrounds*/
+
+#background{
+   color: white;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-attachment:fixed ;
+    background-image: url("#");
+   
+}
+
+/*===========================================================================================================================================*/
+
+
+/* 07. Borders*/
+#borders1{
+    border: 3px solid red;
+}
+#borders2{
+    border: 3px dotted black;
+}
+
+
+
+/* 08. Margins*/
+.margin{
+
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+  
+
+
+/*===========================================================================================================================================*/
+
+
+/* 09. Padding*/
+.padding{
+ padding-left:40px;
+ padding-top:5px;
+ padding-right:5px;
+ padding-bottom:5px;
+ border: 2px solid red;
+}
+
+
+
+/*===========================================================================================================================================*/
+
+
+/* 10. Height and Width
+-------------------
+
+    The CSS height and width properties are used to set the height and width of an element.
+
+    The CSS max-width property is used to set the maximum witdh of an element.
+
+    The height and width properties do not include padding, borders, or margins.  It sets the height/width of the area inside the
+    padding, border, and margin of the element.
+
+    The height and width properties may have the following values:
+
+    auto - This is default.  The browser calculates the height and width.
+
+    length - Defines the height/width in px, cm.
+
+    % - Defines the height/width in percent of the containing block.
+
+    initial - Sets the height/width to its default value.
+
+    inherit - The height/width will be inherited from its parent value. */
+
+
+
+/*===========================================================================================================================================*/
+
+
+/* 11. Box Model*/
+.boxmodel{
+    height: 60px;
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid rebeccapurple;
+}
+
+   
+
+
+
+/*===========================================================================================================================================*/
+
+
+/* 12. Outline*/
+.outline1{
+    outline-style: dashed;
+}
+.outline2{
+    outline-style: dotted;
+
+}
+
+/* 17. Lists*/
+ul{
+    list-style-type:lower-roman;
+   
+}
+ol{
+    list-style-type: lower-alpha;
+}
+/*===========================================================================================================================================*/
+
+
+/* 18. Tables*/
+table,tr,td{
+    border: 1px solid black;
+    width: 50%;
+    height: 20px;
+}
+
+
+/*===========================================================================================================================================*/
+
+/* 29. Opacity*/
+#pic:hover{
+    opacity: 1;
+}
+
+/*===========================================================================================================================================*/
+
+/* 40. !important*/
+#Sheri{
+    background-color: red;
+    background-color: aquamarine!important;
+}
